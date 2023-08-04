@@ -1,0 +1,501 @@
+/* body リセット */
+body {
+    margin: 0px;
+}
+img {
+    width: 100%;
+}
+/*header*/
+
+header{
+    width: auto;
+    height: 380px;
+    background-color: white;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    header{
+        width: auto;
+        height: 380px;
+        background-color: white;
+    }
+}
+
+.私について{
+    font-family: sans-serif;
+    font-size: 23px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .私について{
+        font-family: sans-serif;
+        font-size: 32px;
+        text-align: center;
+        position: relative;
+        top: 110px;
+    }
+}
+.about-text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .about-text{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 23px;
+        letter-spacing: 5px;
+        text-align: center;
+        position: relative;
+        top: 110px;
+    }
+}
+
+.maru-text{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .maru-text{
+        font-size: 38px;
+        text-align: center;
+        position: relative;
+        top: 200px;
+    }
+}
+.maru2-text{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .maru2-text{
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: 200px;
+    }
+}
+.maru3-text{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .maru3-text{
+        font-size: 23px;
+        text-align: center;
+        position: relative;
+        top: 200px;
+    }
+}
+
+/*メインぺーじ*/
+main{
+    width: auto;
+    height: 2500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    main{
+        width: auto;
+        height: 3000px;
+        background-color: white;
+    }
+}
+.Hello{
+    font-family: serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    width: 300px;
+    margin: auto;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .Hello{
+        font-family: serif;
+        font-size: 30px;
+        letter-spacing: 6px;
+        text-align: center;
+        position: relative;
+        top: 100px;
+        width: 300px;
+        margin: auto;
+    }
+}
+
+.main-text{
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 180px;
+    width: 300px;
+    margin: auto;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .main-text{
+        font-family: sans-serif;
+        font-size: 22px;
+        text-align: center;
+        position: relative;
+        top: 200px;
+        left: 10px;
+        width: 750px;
+        margin: auto;
+    }
+}
+
+.what-text{
+    font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        line-height: 25px;
+        font-weight: bold;
+        opacity: 0.3;
+        line-height: 50px;
+        text-align: center;
+        position: relative;
+        top: 700px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .what-text{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 45px;
+        font-weight: bold;
+        opacity: 0.3;
+        line-height: 60px;
+        text-align: center;
+        position: relative;
+        top: 800px;
+    }
+}
+
+
+.read-text{
+    font-family: serif;
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: 500px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .read-text{
+        font-family: serif;
+        font-size: 30px;
+        letter-spacing: 3px;
+        font-weight: bold;
+        text-align: center;
+        position: relative;
+        top: 530px;
+    }
+}
+
+.read2-text{
+    font-family: sans-serif;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    position: relative;
+    top: 800px;
+    width: 300px;
+    margin: auto;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .read2-text{
+        font-family: serif;
+        font-size: 25px;
+        letter-spacing: 3px;
+        line-height: 45px;
+        text-align: center;
+        position: relative;
+        top: 1000px;
+        width: 750px;
+    }
+}
+
+.my-text{
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    top: 1200px;
+    width: 300px;
+    margin: auto;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .my-text{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: left;
+    position: relative;
+    top: 1500px;
+    width: 700px;
+    margin: auto;
+    }
+}
+
+/*skil*/
+.skil-text{
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: left;
+    position: relative;
+    top: 1390px;
+    width: 300px;
+    margin: auto;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .skil-text{
+        font-family: sans-serif;
+        font-size: 30px;
+        text-align: left;
+        position: relative;
+        top: 1730px;
+        width: 300px;
+        right: 190px;
+        margin: auto;
+    }
+}
+
+/*skil画像*/
+.ill-img{
+    width: 50px;
+    margin:0 auto;
+    position: relative;
+    top: 1400px;
+    right: 130px;
+    text-align: center;
+    overflow: hidden; 
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .ill-img{
+        width: 90px;
+        margin:0 auto;
+        position: relative;
+        top: 1750px;
+        right: 310px;
+        overflow: hidden;
+    }
+}
+
+.pho-img{
+    width:50px;
+    margin:0 auto;
+    position: relative;
+    top: 1345px;
+    right: 70px;
+    text-align: center;
+    overflow: hidden; 
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .pho-img{
+        width: 90px;
+        margin:0 auto;
+        position: relative;
+        top: 1656px;
+        right: 200px;
+        overflow: hidden;
+    }
+}
+
+.in-img{
+    width: 50px;
+    margin:0 auto;
+    position: relative;
+    top: 1290px;
+    right: 10px;
+    text-align: center;
+    overflow: hidden; 
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .in-img{
+        width: 90px;
+        margin:0 auto;
+        position: relative;
+        top: 1560px;
+        right: 90px;
+        overflow: hidden;
+    }
+}
+
+.xd-img{
+    width: 53px;
+    margin:0 auto;
+    position: relative;
+    top: 1235px;
+    right: -50px;
+    text-align: center;
+    overflow: hidden; 
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .xd-img{
+        width: 90px;
+        margin:0 auto;
+        position: relative;
+        top: 1468px;
+        right: -20px;
+        overflow: hidden;
+    }
+}
+
+.vs-img{
+    width: 60px;
+    margin:0 auto;
+    position: relative;
+    top: 1171px;
+    right: -110px;
+    text-align: center;
+    overflow: hidden; 
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .vs-img{
+        width: 108px;
+        margin:0 auto;
+        position: relative;
+        top: 1360px;
+        right: -130px;
+        overflow: hidden;
+    }
+}
+
+/*footer*/
+footer{
+    width: auto;
+    height: 40px;
+    position: relative;
+    top: 50px;
+    background-color: white;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    footer{
+     width: auto;
+    height: 50px;
+    position: relative;
+    top: 100px;
+    background-color: white;
+    }
+}
+
+.footer-text{
+        font-family: sans-serif;
+        font-size: 15px;
+        text-align: center;
+        position: relative;
+        top: 70px;
+        background: transparent;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .footer-text{
+        font-family: sans-serif;
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        top: 90px;
+    }
+}
+
+.maru4-text{
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .maru4-text{
+        font-size: 23px;
+        text-align: center;
+        position: relative;
+        top: -100px;
+    }
+}
+
+.maru5-text{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .maru5-text{
+        font-size: 30px;
+        text-align: center;
+        position: relative;
+        top: -100px;
+    }
+}
+
+.maru6-text{
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    top: -100px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .maru6-text{
+        font-size: 38px;
+        text-align: center;
+        position: relative;
+        top: -100px;
+    }
+}
+.btn{
+    font-size: 15px;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: black;
+    position: relative;
+    top: -40px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .btn{
+        font-size: 22px;
+        border: none;
+        background: transparent;
+        outline: none;
+        color: black;
+        position: relative;
+        top: -40px;
+    }
+}
