@@ -97,7 +97,9 @@ main{
 @media screen and (min-width:769px){
     main{
         width: auto;
-        height: 4200px;
+        height: 4500px;
+        margin: 0;
+        padding: 0;
         background-color: white;
     }
 }
@@ -273,6 +275,25 @@ main{
     right: -350px;
 }
 }
+
+.poster-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 92, 92);
+    font-size: 13px;
+    position: relative;
+    top: 1060px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .poster-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    position: relative;
+    top: 570px;
+    right: -350px;
+}
+}
+
 .Branding-Design{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -289,10 +310,27 @@ main{
     right: 340px;
 }
 }
+.branding-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 92, 92);
+    font-size: 13px;
+    position: relative;
+    top: 1240px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .branding-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    position: relative;
+    top: 880px;
+    right: 350px;
+}
+}
 
 .another{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
     position: relative;
     top: 1250px;
@@ -307,6 +345,24 @@ main{
     right: -300px;
 }
 }
+.another-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(101, 92, 92);
+    font-size: 13px;
+    position: relative;
+    top: 1260px;
+}
+/*パソコン用*/
+@media screen and (min-width:769px){
+    .another-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    position: relative;
+    top: 780px;
+    right: -300px;
+}
+}
+
 /*画像について*/
 
 /*ポスターデザイン画像*/
@@ -321,12 +377,12 @@ main{
 /*パソコン用*/
 @media screen and (min-width:769px){
     .home-img{
-        width: 650px;
+        width: 670px;
         margin:0 auto;
         text-align: left;
         position: relative;
         top: 1300px;
-        left: -400px;
+        left: -200px;
         overflow: hidden; 
 }
 }
@@ -349,12 +405,12 @@ main{
 /*パソコン用*/
 @media screen and (min-width:769px){
     .bra-img{
-        width: 400px;
+        width: 420px;
         margin:0 auto;
         text-align: left;
         position: relative;
         top: 1400px;
-        left:400px;
+        left:200px;
         overflow: hidden; 
 }
 }
@@ -378,12 +434,12 @@ main{
 /*パソコン用*/
 @media screen and (min-width:769px){
     .ano-img{
-        width: 650px;
+        width: 670px;
         margin:0 auto;
         text-align: left;
         position: relative;
         top: 1500px;
-        left: -400px;
+        left: -200px;
         overflow: hidden; 
 }
 }
